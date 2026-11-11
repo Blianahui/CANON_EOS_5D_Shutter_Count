@@ -90,6 +90,7 @@ build_exe.bat
 - **Camera not visible in Windows after a failed run** — unplug and re-plug the cable;
   Windows reinstalls its normal driver.
 - Always look at the log (window or `shutter_count_log.txt`) for the exact step that failed.
+- Make sure that camera is in the PTP mode (Menu > Communication > Print/PTP) or it won't connect
 
 ## License
 
