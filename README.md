@@ -10,7 +10,8 @@ No Canon software, Zadig, third-party drivers or certificates are needed.
 
 1. Download `EOS5D_ShutterCount.exe` from the [Releases](../../releases) page.
    It is a single file with everything inside — nothing to install.
-2. Turn the camera on and connect it to the PC with a USB cable.
+2. On the camera, set **Menu > Communication > Print/PTP**, then turn it on and connect it
+   to the PC with a USB cable.
 3. Start the program (Windows asks for administrator rights — this is required).
 4. Wait until the *Camera* panel says **Connected – normal mode**.
 5. Click **Check shutter count**. After a few seconds the count appears.

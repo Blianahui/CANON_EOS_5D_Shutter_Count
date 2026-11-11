@@ -107,6 +107,10 @@ class App(tk.Tk):
         self.driver = ttk.Label(status_box, text="", foreground="#555")
         self.driver.pack(anchor="w")
 
+        ttk.Label(self, text="Note: connect the camera in PTP mode (Menu > Communication > Print/PTP).",
+                  foreground="#1a5fb4", font=("Segoe UI", 9, "bold"), anchor="center",
+                  ).pack(fill="x", padx=12, pady=(0, 10))
+
         count_box = ttk.LabelFrame(self, text="Shutter count", padding=10)
         count_box.pack(fill="x", padx=12)
         self.count = ttk.Label(count_box, text="—", font=("Segoe UI", 28, "bold"), anchor="center")
